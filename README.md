@@ -15,3 +15,17 @@ bash benchmark_pytorch.sh --ngpus [#GPUs]
 
 ## Benchmark Performance Results
 The results can be found in the `results` folder as `csv` files.
+
+## Citation
+If you find this useful, please cite our work as:
+
+Ido Hakimi, Rotem Zamir Aviv, Kfir Y. Levy, and Assaf Schuster. LAGA: Lagged AllReduce with Gradient Accumulation for Minimal Idle Time. In Proc. of ICDM, 2021.
+
+```
+@inproceedings{hakimi2021laga,
+  title={LAGA: Lagged AllReduce with Gradient Accumulation for Minimal Idle Time},
+  author={Hakimi, Ido and Zamir Aviv, Rotem and Levy, Kfir Yehuda and Schuster, Assaf},
+  booktitle = {2021 IEEE International Conference on Data Mining (ICDM)},
+  year={2021}
+}
+```
